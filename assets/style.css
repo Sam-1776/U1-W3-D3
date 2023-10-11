@@ -1,0 +1,86 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  margin: 0;
+  color: white;
+  background-image: url(../assets/noita-digital-QZX8jbK1xEw-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+h4,
+p {
+  display: inline-block;
+}
+header {
+  background-color: #800000 ;
+  height: 90px;
+  border-radius: 0 0 10px 10px;
+}
+header > h1 {
+  padding-top: 25px;
+  margin: 0;
+  margin-left: 3px;
+}
+label {
+  display: block;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+main > form {
+  width: max-content;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+#stuff {
+  min-width: 300px;
+  min-height: 25px;
+  border-radius: 5px;
+}
+#amount {
+  min-width: 50px;
+  min-height: 25px;
+  border-radius: 5px;
+}
+
+.bag {
+  width: 98%;
+  margin-inline: auto;
+  background-color: #800000 ;
+  border: 2px solid white;
+  border-radius: 14px;
+  margin-top: 2px;
+  padding: 16px;
+}
+.bag > button {
+  margin-left: 85%;
+}
+
+.bag > h4 {
+  font-size: 1.4rem;
+}
+
+.takeIt {
+  background-color: lightgray;
+  width: 98%;
+  margin-inline: auto;
+  border: 2px solid white;
+  border-radius: 14px;
+  margin-top: 2px;
+  padding: 16px;
+  align-items: center;
+}
+.takeIt > h4{
+    text-decoration: line-through;
+    font-size: 1.2rem;
+    color: black;
+}
+.takeIt > button{
+    margin-left: 85%;
+}
+
