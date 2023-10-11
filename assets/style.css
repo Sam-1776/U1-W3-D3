@@ -42,11 +42,6 @@ main > form {
   min-height: 25px;
   border-radius: 5px;
 }
-#amount {
-  min-width: 50px;
-  min-height: 25px;
-  border-radius: 5px;
-}
 
 .bag {
   width: 98%;
