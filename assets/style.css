@@ -73,7 +73,6 @@ main > form {
   border-radius: 14px;
   margin-top: 2px;
   padding: 16px;
-  align-items: center;
 }
 .takeIt > h4{
     text-decoration: line-through;
